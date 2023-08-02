@@ -15,9 +15,9 @@ app.get("/", function (req, res) {
 
 mailchimp.setConfig({
     //*****************************ENTER YOUR API KEY HERE******************************
-    apiKey: "d71abec2ab32143f1e966b461bc393b0-us21",
+    apiKey: "", 
     //*****************************ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER******************************
-    server: "us21"
+    server: ""
 });
 
 app.post("/", function (req, res) {
@@ -67,10 +67,3 @@ app.listen(3000, function () {
 
 
 
-// API Key
-// d71abec2ab32143f1e966b461bc393b0-us21
-
-// List Id
-// 4f956040ae
-
-// Render
